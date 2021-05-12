@@ -23,18 +23,15 @@ public class LineComparison {
 		
 		double length2 = (Math.pow(x4-x3, 2) + Math.pow(y4-y3, 2));
 		System.out.println(Math.sqrt(length2));
+		Double obj1 = new Double(length1);
+        Double obj2 = new Double(length2);
 		
-		if(Double.compare(length1,length2) == 0){  
-			  
+		if(obj1.equals(obj2)){    
             System.out.println("Lines are equal");  
-        }  
-        else  if(Double.compare(length1,length2) > 0)
-        {  
-            System.out.println("Line1 is greater than Line2");  
         }  
         else
         {
-        	System.out.println("Line2 is greater than Line1");
+        	System.out.println("Lines are not equal");
         }
 			
 		}
