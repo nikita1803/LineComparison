@@ -21,7 +21,7 @@ public class LineComparison {
 		int y4= sc.nextInt();
 		
 		
-		double length2 = (Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
+		double length2 = (Math.pow(x4-x3, 2) + Math.pow(y4-y3, 2));
 		System.out.println(Math.sqrt(length2));
 		Double obj1 = new Double(length1);
         Double obj2 = new Double(length2);
